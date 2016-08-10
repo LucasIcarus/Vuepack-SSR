@@ -1,6 +1,6 @@
 <p align="center">
   <img src="http://ww4.sinaimg.cn/large/a15b4afegw1f6k20fb3p5j205o05ogli" alt="vuepack" width="60">
-  <br><br><strong>VuePack</strong> is a modern Vue.js starter <br>which uses Vue 2, Vuex, Vue-router and Webpack 2.
+  <br><br><strong>VuePack-SSR</strong> is an extral SSR edition of modern Vue.js starter Vuepack.<br>which uses Vue 2, Vuex, Vue-router and Webpack 2.
 </p>
 
 ## Features
@@ -10,10 +10,11 @@
 - Webpack 2
 - Babel 6
 - Hot reloading
-- Split vendor code from your app
-- A boilerplate which is small and focusing on client-side apps
+- BrowerSync
+- A boilerplate which is small
 
 <h2></h2>
+For Original Vuepack please head to [Vuepack](https://github.com/egoist/vuepack).
 
 For Vue 1 please head to [vue-1](https://github.com/egoist/vuepack/tree/vue-1) branch.
 
@@ -25,13 +26,14 @@ For Isomorphic rendering please head to [vue-isomorphic-starter](https://github.
 
 ```bash
 # clone or fork this repo
-$ cd vuepack
+$ cd my-project
 $ npm install
 
 # edit files and start developing
-$ npm run dev
+$ npm start
+
 # bundle all scripts and styles for production use
-$ npm run build
+# temp out
 ```
 
 ### For Windows users
