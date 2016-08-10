@@ -1,12 +1,16 @@
 import { join, resolve } from 'path'
 
 const config = {
+
+	// path
 	path: {
 		root: resolve(__dirname),
 		src: join(__dirname, './src'),
 		dist: join(__dirname, './dist'),
 		static: join(__dirname, './dist/public')
 	},
+
+	// post-css
 	AUTOPREFIXER_BROWSERS: [
 		'Android 2.3',
 		'Android >= 4',
@@ -17,7 +21,11 @@ const config = {
 		'Opera >= 12',
 		'Safari >= 7.1'
 	],
-	port: 3030,
+
+	// server
+	port: 5000,
+
+	//mongoose
 }
 
 export default config

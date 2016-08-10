@@ -1,6 +1,5 @@
 import webpack from 'webpack'
 import { join } from 'path'
-import HtmlWebpackPlugin from 'html-webpack-plugin'
 import AssetsPlugin from 'assets-webpack-plugin'
 import merge from 'webpack-merge'
 import nodeExt from 'webpack-node-externals'
